@@ -1,0 +1,28 @@
+name: topology
+dependencies:
+  - python=3.7
+  - nb_conda_kernels
+  - matplotlib
+  - numpy=1.15.4
+  - pandas
+  - scipy
+  - mkl-service
+  - libpython
+  - pygpu
+  - pip
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - conda-forge:nodejs
+  - bokeh
+  - m2w64-toolchain
+  - pip:
+      - mplstereonet
+      - ipyvolume
+      - pyvista
+      - nptyping
+      - theano>=1.0.4
+      - gstools
+      - elfi
+      - tqdm
+      - networkx>=2.3
